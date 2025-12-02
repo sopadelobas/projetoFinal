@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Criar conta - Banco </title>
+     <link rel="preconnect" href="https://fonts.googleapis.com"&gt>
+    <link rel="preconnect" href="https://fonts.gstatic.com" &quot; crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap&quot;" rel="stylesheet">
+    <link href="/tela.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <h1> Banco <img src="logo3.png" alt="" width="200px"> </h1>
+          <p> Insira os dados para criação da sua conta: </p>
+    </header>
+    <main>
+        <div class="card-criacao">
+            <form action="submit">
+                <br>
+                <label for="Nome"> Nome: </label>
+                <br>
+                <input type="text" id="Nome" required>
+                <br>
+                <label for="Data"> Data de nascimento: </label>
+                <br>
+                <input type="date" id="Data" required>
+                <br>
+                <label for="cpf"> CPF: </label>
+                <br>
+                <input type="text" id="CPF" required>
+                <br>
+                <label for="telefone"> Telefone </label>
+                <br>
+                <input type="number" required id="Telefone" placeholder="Ex: (12) 1234-4321" min="10">
+                <br>
+                <label for="Email"> E-mail: </label>
+                <br>
+                <input type="email" id="Email" required>
+                <br>
+                <label for="RG"> RG: </label>
+                <br>
+                <input type="number" id="Rg" required min="10">
+                <br>
+                <label for="endereco"> Endereço atual: </label>
+                <br>
+                <input type="text" id="Endereco" required>
+                <br>
+                <br>
+                <input type="submit" class="enviar">
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+       &copy; Criado por Sophia Santos, Raly e Isabelle Uchoas. Site para fins educacionais
+    </footer>
+</body>
+</html>

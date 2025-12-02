@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: thistle;
+    text-align:}
+.header{
+    background-color: purple;
+    color: lavender;
+    text-align: center;
+    padding: 30px 10px;
+    margin: 0;
+    font-size: 1.2em;
+    margin-bottom: 60px;
+}
+.header h1{
+    margin: 0;
+    font-size: 4em;
+    color: lavender;
+}
+.card-criacao {
+    background-color: rgb(212, 157, 212);
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+    width: 600px;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    height: 650px;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 3px solid purple;
+}
+.card-criacao p {
+    margin-bottom: 10px;
+}
+.card-criacao label {
+    width: 200px;
+    padding: 10px;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: purple;
+    margin-bottom: 5px;
+}
+input[type="text"] {
+    width: 200px;
+    padding: 10px;
+    border: 3px solid purple;
+    border-radius: 5px;
+    font-size: 16px;
+}
+input[type="number"] {
+    width: 200px;
+    padding: 10px;
+    border: 3px solid purple;
+    border-radius: 5px;
+    font-size: 16px;
+}
+input[type="email"] {
+    width: 200px;
+    padding: 10px;
+    border: 3px solid purple;
+    border-radius: 5px;
+    font-size: 16px;
+}
+input[type="date"] {
+    width: 200px;
+    padding: 10px;
+    border: 3px solid purple;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.enviar {
+    display: inline-block;
+    background-color: purple;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 3px solid purple;
+}
+.enviar:hover{
+    transform: scale(1.05);
+    filter: brightness(0.9);
+}
+.footer {
+    background-color: purple;
+    color: lavender;
+    text-align: center;
+    padding: 30px 10px;
+    margin: 0;
+    font-size: 1.2em;
+    margin-top: 60px;}
