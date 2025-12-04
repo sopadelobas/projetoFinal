@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: thistle;
+}
+.header{
+    background-color: purple;
+    color: lavender;
+    text-align: center;
+    padding: 30px 10px;
+    margin: 0;
+    font-size: 1.2em;
+    margin-bottom: 60px;
+}
+.header h1{
+    margin: 0;
+    font-size: 4em;
+    color: lavender;
+}
+.conteiner{
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    background-color: rgb(212, 157, 212);
+    padding: 25px;
+    width: 600px;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+input[type="number"] {
+    width: 200px;
+    padding: 10px;
+    border: 3px solid purple;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px; }
+
+
+.voltar {
+    display: inline-block;
+    background-color: purple;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 3px solid purple;
+}
+.voltar:hover{
+    transform: scale(1.05);
+    filter: brightness(0.9);
+}
+.depositar {
+    display: inline-block;
+    background-color: purple;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 3px solid purple;
+}
+.depositar:hover{
+    transform: scale(1.05);
+    filter: brightness(0.9);
+}
+.footer {
+    background-color: purple;
+    color: lavender;
+    text-align: center;
+    padding: 30px 10px;
+    margin: 0;
+    font-size: 1.2em;
+    margin-top: 60px;
+}
